@@ -3,10 +3,7 @@ import { readDB } from "./lib/storage";
 import { openAllUrls } from "./lib/openAll";
 
 export default async function OpenLinkGroupCommand(
-  props: LaunchProps<{ arguments: Arguments }>,
-
-export default async function OpenLinkGroupCommand(
-  props: LaunchProps<{ arguments: Arguments }>,
+  props: LaunchProps<{ arguments: Arguments.OpenLinkGroup }>,
 ) {
   const { groupId } = props.arguments;
 
